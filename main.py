@@ -191,5 +191,5 @@ class OlympicSystem:
 
 
 competition = InputBlock()
-result = Fight(competition.wrestlers[0], competition.wrestlers[1])
+result = Fight(competition.categories[0], competition.categories[1])
 result.make_fight()
